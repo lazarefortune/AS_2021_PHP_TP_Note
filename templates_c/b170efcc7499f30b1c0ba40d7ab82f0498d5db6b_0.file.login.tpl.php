@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-03-28 03:41:13
+/* Smarty version 3.1.39, created on 2021-03-28 11:48:58
   from 'C:\wamp64\www\mvc\tpl\pages\login.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_605ffad9363912_30172949',
+  'unifunc' => 'content_60606d2ab8b4f2_46003424',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'b170efcc7499f30b1c0ba40d7ab82f0498d5db6b' => 
     array (
       0 => 'C:\\wamp64\\www\\mvc\\tpl\\pages\\login.tpl',
-      1 => 1616902872,
+      1 => 1616906340,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_605ffad9363912_30172949 (Smarty_Internal_Template $_smarty_tpl) {
+function content_60606d2ab8b4f2_46003424 (Smarty_Internal_Template $_smarty_tpl) {
 ?><div class="container">
   <div class="row d-flex justify-content-center">
     <div class="col-md-6">

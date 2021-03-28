@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-03-28 04:37:59
+/* Smarty version 3.1.39, created on 2021-03-28 11:48:26
   from 'C:\wamp64\www\mvc\tpl\pages\home.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_6060082753cdd8_50853047',
+  'unifunc' => 'content_60606d0a390d88_85916674',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'fe434ad7cbf45702d700120e9b52729db6a60bd1' => 
     array (
       0 => 'C:\\wamp64\\www\\mvc\\tpl\\pages\\home.tpl',
-      1 => 1616906278,
+      1 => 1616906340,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_6060082753cdd8_50853047 (Smarty_Internal_Template $_smarty_tpl) {
+function content_60606d0a390d88_85916674 (Smarty_Internal_Template $_smarty_tpl) {
 ?><section class="jumbotron text-center">
   <div class="container">
     <h1 class="jumbotron-heading">TP NOTE PHP</h1>

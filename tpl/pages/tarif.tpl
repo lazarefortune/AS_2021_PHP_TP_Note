@@ -3,11 +3,23 @@
 
     <table class="table caption-top  table-striped">
       <caption>Liste des tarifs </caption>
-      <thead class="table-dark">
+      <thead class="table-dark table-custom">
         <tr>
-          <th scope="col">Libellé catégorie</th>
-          <th scope="col">Libellé prestation</th>
-          <th scope="col">Prix</th>
+          <th scope="col">
+            <a href="index.php?page=tarif&orderBy=categorie">
+              Libellé catégorie
+            </a>
+          </th>
+          <th scope="col">
+            <a href="index.php?page=tarif&orderBy=prestation">
+              Libellé prestation
+            </a>
+          </th>
+          <th scope="col">
+            <a href="index.php?page=tarif&orderBy=prix">
+              Prix
+            </a>
+          </th>
         </tr>
       </thead>
       <tbody>

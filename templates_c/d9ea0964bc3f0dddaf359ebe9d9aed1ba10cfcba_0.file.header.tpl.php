@@ -1,18 +1,18 @@
 <?php
-/* Smarty version 3.1.39, created on 2021-03-28 04:20:07
+/* Smarty version 3.1.39, created on 2021-03-28 11:48:26
   from 'C:\wamp64\www\mvc\tpl\header.tpl' */
 
 /* @var Smarty_Internal_Template $_smarty_tpl */
 if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   'version' => '3.1.39',
-  'unifunc' => 'content_606003f767cd89_95452933',
+  'unifunc' => 'content_60606d0a300406_41813333',
   'has_nocache_code' => false,
   'file_dependency' => 
   array (
     'd9ea0964bc3f0dddaf359ebe9d9aed1ba10cfcba' => 
     array (
       0 => 'C:\\wamp64\\www\\mvc\\tpl\\header.tpl',
-      1 => 1616905206,
+      1 => 1616931777,
       2 => 'file',
     ),
   ),
@@ -20,7 +20,7 @@ if ($_smarty_tpl->_decodeProperties($_smarty_tpl, array (
   array (
   ),
 ),false)) {
-function content_606003f767cd89_95452933 (Smarty_Internal_Template $_smarty_tpl) {
+function content_60606d0a300406_41813333 (Smarty_Internal_Template $_smarty_tpl) {
 ?><!DOCTYPE html>
 <html lang="fr">
   <head>
@@ -63,9 +63,6 @@ function content_606003f767cd89_95452933 (Smarty_Internal_Template $_smarty_tpl)
   <header class="p-3 bg-dark text-white">
   <div class="container">
     <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
-      <a href="/" class="d-flex align-items-center mb-2 mb-lg-0 text-white text-decoration-none">
-        <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"/></svg>
-      </a>
 
       <ul class="nav col-12 col-lg-auto me-lg-auto mb-2 justify-content-center mb-md-0">
         <li><a href="index.php" class="nav-link px-2 text-secondary">Accueil</a></li>
@@ -85,14 +82,13 @@ function content_606003f767cd89_95452933 (Smarty_Internal_Template $_smarty_tpl)
 
       <div class="text-end">
         <?php if ($_smarty_tpl->tpl_vars['isConnected']->value) {?>
-        <a href="controllers/logout.php">
-          <button type="button" class="btn btn-danger me-2">Se déconnecter</button>
-        </a>
+          <a href="controllers/logout.php">
+            <button type="button" class="btn btn-danger me-2">Se déconnecter</button>
+          </a>
         <?php } else { ?>
-        <a href="index.php?page=login">
-          <button type="button" class="btn btn-outline-light me-2">Se connecter</button>
-        </a>
-
+          <a href="index.php?page=login">
+            <button type="button" class="btn btn-outline-light me-2">Se connecter</button>
+          </a>
         <?php }?>
       </div>
     </div>

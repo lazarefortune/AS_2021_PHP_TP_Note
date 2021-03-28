@@ -3,7 +3,7 @@
     <div class="col-md-9">
 
       <h5>Ajouter un usager</h5>
-  
+
 
       {foreach $notifications as $notification}
         <div class="alert alert-{$notification.type}">
@@ -14,12 +14,12 @@
       <form method="post" name="action">
         <div class="mb-3">
           <label for="nom" class="form-label">Nom</label>
-          <input type="text" class="form-control" name="nom" id="nom">
+          <input type="text" class="form-control" name="nom" id="nom" autofocus>
         </div>
 
         <div class="mb-3">
           <label for="numCarte" class="form-label">Numéro de carte</label>
-          <input type="text" class="form-control" name="numCarte" id="numCarte" minlength="2" maxlength="2" aria-describedby="numCarteHelp">
+          <input type="text" class="form-control" name="numCarte" id="numCarte" minlength="2" maxlength="2" placeholder="Ex: C2" aria-describedby="numCarteHelp">
           <div id="numCarteHelp" class="form-text">Ce numéro est unique.</div>
         </div>
 
@@ -41,7 +41,7 @@
 
 
         <div class="mb-3">
-          <label for="mtCaution" class="form-label">Montant de la caution</label>
+          <label for="mtCaution" class="form-label">Montant de la caution (€)</label>
           <input type="number" class="form-control" name="mtCaution" id="mtCaution">
         </div>
 
